@@ -20,6 +20,5 @@ class School
     hash = {}
   roster.each {|k, v| hash[k] = v.sort}
   return hash
-    # binding.pry
   end
 end
