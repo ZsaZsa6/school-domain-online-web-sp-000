@@ -1,3 +1,4 @@
+require "pry"
 class School
   attr_accessor :roster, :grade, :name, :student
 
@@ -11,4 +12,11 @@ class School
     roster[grade] << student
   end
 
+  def grade(grade)
+    roster[grade]
+  end
+
+  def sort
+      name.sort 
+  end
 end
