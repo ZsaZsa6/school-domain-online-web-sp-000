@@ -19,5 +19,6 @@ class School
   def sort
   roster.each do|k, v| v.sort
     # binding.pry
+    end
   end
 end
