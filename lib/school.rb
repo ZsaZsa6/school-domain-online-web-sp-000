@@ -17,7 +17,7 @@ class School
   end
 
   def sort(student)
-  roster.each |student| do  student <=> student
+  roster.each {|student| student <=> student}
     # binding.pry
   end
 end
