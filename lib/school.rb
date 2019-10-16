@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-  roster.map {|k, v| v <=> v}
+  roster.each.sort_by {|k, v| v}
     # binding.pry
   end
 end
