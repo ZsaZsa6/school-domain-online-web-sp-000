@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    self.values.sort
+    self.sort.values
     # binding.pry
   end
 end
