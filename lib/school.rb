@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-  roster.each student <=> student
+  roster.each(student <=> student)
     # binding.pry
   end
 end
