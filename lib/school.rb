@@ -17,7 +17,7 @@ class School
   end
 
   def sort(student)
-    student.sort
+    student <=> student
     # binding.pry
   end
 end
