@@ -16,8 +16,8 @@ class School
     roster[grade]
   end
 
-  def sort
-  roster.sort_by{|k, v| k}
+  def sort(grade)
+  grade.sort_by{|k, v| v}
     # binding.pry
   end
 end
