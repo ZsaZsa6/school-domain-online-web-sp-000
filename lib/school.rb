@@ -16,8 +16,8 @@ class School
     roster[grade]
   end
 
-  def sort(student)
-  roster[student]
+  def sort
+    
     # binding.pry
   end
 end
