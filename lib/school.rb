@@ -17,7 +17,7 @@ class School
   end
 
   def sort(grade)
-    grade.value.sort
+    self.value.sort
     binding.pry
   end
 end
