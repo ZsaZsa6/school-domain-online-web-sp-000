@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    roster.sort_by name <=> name
+    roster[grade:].sort
 
   end
 end
