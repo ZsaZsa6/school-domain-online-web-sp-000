@@ -18,6 +18,6 @@ class School
 
   def sort
     self.values.sort
-    binding.pry
+    # binding.pry
   end
 end
