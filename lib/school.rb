@@ -17,6 +17,6 @@ class School
   end
 
   def sort
-      name.sort 
+      name <=> name
   end
 end
