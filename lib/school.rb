@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-  roster.each{|k, v| v <=> v}
+  roster.each{|k, v| v[1] <=> v[2]}
     # binding.pry
   end
 end
